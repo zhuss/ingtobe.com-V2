@@ -1,0 +1,62 @@
+body {
+    width: 100%;
+    font-family: -apple-system, SF UI Text, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    font-weight: 100;
+    color: #000;
+    -webkit-tap-highlight-color: transparent;
+}
+.warpper {
+    padding: 20px;
+}
+.tab_title {
+    height: 38px;
+    font-size: 20px;
+    border-bottom: 0.5px solid rgba(151,151,151,.3);
+    color: rgba(0,0,0,.3);
+    font-weight: bolder;
+    li {
+        float: left;
+        height: 35px;
+        border-bottom: 3px solid transparent;
+        margin-right: 38px;
+        transition: all 0.3s ease-in-out;
+    }
+    .active_title {
+        border-bottom: 3px solid #EE4550;
+    }
+}
+.tab_content {
+    display: none;
+    padding-top: 6px;
+    .job_card {
+        padding-top: 18px;
+        padding-bottom: 13px;
+        border-bottom: 0.5px solid rgba(151,151,151,.3);
+        .job_name {
+            line-height: 24px;
+            font-size: 16px;
+        }
+        .job_salary {
+            color: #EE4550;
+            margin-top: -5px;
+        }
+        .job_email {
+            margin-top: 28px;
+            color: #EE4550;
+        }
+    }
+    .job_card:last-child {
+        border-bottom: none;
+    }
+}
+.active_content {
+    display: block;
+}
+.job_content {
+    text-align: justify;
+    h3 {
+        margin-top: 13px;
+        font-weight: bolder;
+    }
+}

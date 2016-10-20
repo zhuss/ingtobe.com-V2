@@ -1,0 +1,232 @@
+body {
+    width: 100%;
+    font-family: -apple-system, SF UI Text, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    color: #FFF;
+    -webkit-tap-highlight-color: transparent;
+}
+.warpper {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 768px;
+    background: #000;
+}
+header {
+    width: 100%;
+    height: 708px;
+    background-image: linear-gradient(-180deg, #3E3E3E 2%, #000 100%);
+    position: relative;
+    overflow: hidden;
+}
+.sloga-text {
+    padding-left: 20px;
+    -webkit-transform: translateY(450px);
+    transform: translateY(450px);
+    background: url("../../img/phone_bg_up.png") no-repeat;
+    background-size: cover;
+}
+.sloga-text h1 {
+    height: 48px;
+    line-height: 24px;
+    font-size: 20px;
+    font-weight: 900;
+}
+.sloga-text p {
+    margin-top: 16px;
+    width: 243px;
+    font-size: 12px;
+    font-weight: 100;
+}
+.sloga-text a {
+    margin-top: 27px;
+    display: block;
+    width: 120px;
+    height: 32px;
+    background: url("../../img/download_btn.png") no-repeat;
+    background-size: 100%;
+    text-indent: -999em;
+}
+.phone_left {
+    width: 271px;
+    height: 439px;
+    background: url("../../img/phone01.png") no-repeat;
+    background-size: 100%;
+    position: absolute;
+    top: 152px;
+    left: -141px;
+}
+.phone_right {
+    width: 477px;
+    height: 440px;
+    background: url("../../img/phone02.png") no-repeat;
+    background-size: 100%;
+    position: absolute;
+    right: -200px;
+    top: 25px;
+}
+.link_group {
+    padding: 0 10px;
+    overflow: hidden;
+}
+.link_card {
+    float: left;
+    display: block;
+}
+.link_card img {
+    width: 100%;
+}
+.link_card:nth-child(2),
+.link_card:nth-child(3) {
+    width: 50%;
+    margin: 10px 0;
+}
+.link_card:nth-child(2) {
+    width: 3.52rem;
+    box-sizing: border-box;
+}
+.link_card:nth-child(3) {
+    width: 3.38rem;
+    float: right;
+}
+.intr_card,
+.contact_card {
+    width: 100%;
+    position: relative;
+}
+.intr_card img,
+.contact_card img {
+    width: 100%;
+}
+.introduction,
+.contact {
+    position: absolute;
+    bottom: 0;
+    padding-left: 20px;
+}
+.introduction h2,
+.contact h2 {
+    height: 48px;
+    line-height: 24px;
+    font-size: 20px;
+    position: relative;
+    font-weight: 900;
+}
+.title_line:after {
+    position: absolute;
+    left: 0;
+    bottom: -12px;
+    content: '';
+    width: 28px;
+    height: 3px;
+    background: #EE4550;
+}
+.intro_text,
+.contact_mess {
+    padding-right: 20px;
+    margin-top: 39px;
+    font-weight: 100;
+}
+.lgbt {
+    height: 16px;
+    line-height: 16px;
+    margin-top: 26px;
+    padding-left: 32px;
+    background: url("../../img/lgbt_icon.png") no-repeat left center;
+    background-size: 20px;
+    font-weight: 100;
+}
+.photo_group {
+    padding: 41px 10px 31px;
+    overflow: hidden;
+}
+.img_card {
+    float: left;
+}
+.img_card img {
+    width: 100%;
+}
+.img_card:nth-child(1) {
+    width: 3.04rem;
+}
+.img_card:nth-child(2) {
+    width: 3.86rem;
+    float: right;
+}
+.img_card:nth-child(3) {
+    width: 4.08rem;
+    margin-top: 10px;
+}
+.img_card:nth-child(4) {
+    float: right;
+    width: 2.82rem;
+    margin-top: 10px;
+}
+.tab_warp {
+    padding-bottom: 77px;
+    position: relative;
+}
+.tab_title {
+    padding-left: 20px;
+    overflow: hidden;
+    margin-bottom: 32px;
+}
+.tab_title li {
+    margin-right: 38px;
+    float: left;
+    font-size: 20px;
+    line-height: 24px;
+    padding-bottom: 12px;
+    border-bottom: 3px solid #000;
+    color: rgba(255, 255, 255, .3);
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    font-weight: 900;
+}
+.tab_title .active_title {
+    color: rgba(255, 255, 255, 1);
+    border-bottom: 3px solid #EE4550;
+}
+.tab_content {
+    padding: 0 20px;
+    font-size: 12px;
+    color: rgba(255, 255, 255, .7);
+    display: none;
+    font-weight: 100;
+}
+.active_content {
+    display: block;
+}
+.position_more {
+    position: absolute;
+    display: block;
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 2px;
+    background: #EE4550;
+    color: #FFF;
+    text-align: center;
+    text-decoration: none;
+    margin-left: 20px;
+    bottom: -24px;
+    z-index: 1;
+}
+.bottom_card {
+    padding: 0 20px 11px;
+    margin-top: 25px;
+    font-weight: 100;
+}
+.copyright {
+    padding: 14px 0;
+    border-top: 1px solid rgba(255, 255, 255, .16);
+    border-top: 0.5px solid rgba(255, 255, 255, .16);
+    color: rgba(255, 255, 255, .3);
+}
+.we_link {
+    color: rgba(255, 255, 255, .8);
+}
+.we_link a {
+    color: rgba(255, 255, 255, .8);
+    text-decoration: none;
+    font-weight: 100;
+}
